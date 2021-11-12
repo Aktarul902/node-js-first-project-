@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Quicksand:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    
+    font-family: 'Quicksand', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: darkblue; */
+    height: 70px;
+    /* background-image: url("css/croplogo.png"); */
+}
+
+
+.container{
+    margin: 20px 0px;
+    background-color: rgb(156, 136, 243);
+    height: 601px;
+    width: 831px;
+    position: absolute;
+    left: 26vw;
+    border-radius: 10px;
+    overflow-y: auto;
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+}
+.user{
+    position: relative;
+    left: 47vw;
+    top: -72x;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.incoming{
+    position: relative;
+    left: 5vw;
+    top: 10vh;
+    background-color: rgb(0, 255, 149);
+    width: 63px;
+    border-radius: 10px;
+    height: 31px;
+    padding: 15px 10px 10px 30px;
+}
+.outgoing{
+    position: relative;
+    left: 45vw;
+    top: 0vw;
+    background-color: rgb(48, 116, 241);
+    width: 63px;
+    height: 31px;
+    padding: 15px 10px 10px 30px;
+    /* overflow-x: scroll; */
+    border-radius: 14px;
+}
+#chat{
+    position: absolute;
+    top: 45vw;
+    height: 5vh;
+    width: 49vw;
+    border-radius: 10px;
+    border: 2px solid rgb(105, 105, 104);
+    left: 396px;
+    z-index: 11;
+}
+#send{
+    position: absolute;
+    top: 691px;
+    height: 5vh;
+    left: 1163px;
+    width: 65px;
+    z-index: 11;
+    border-radius: 10px;
+    color: white;
+    /* border: 2px solid rgb(236, 218, 238); */
+    background-color: rgb(37, 201, 111);
+    /* background-color: rgb(236, 218, 238); */
+    border: 2px solid rgb(37, 201, 111);
+    cursor: pointer;
+}
+#send:hover{
+    transition: all .3s linear ;
+    opacity: 2.0;
+    
+}
+.user2{
+    position: relative;
+    left: 7vw;
+    top: -2px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    top: 45vw;
+    height: 7vh;
+
+}
+.title{
+    position: relative;
+    bottom: -1vw;
+}
+.img{
+    height: 50px;
+    width: 57px;
+    position: relative;
+    left: -2vw;
+    border-radius: 12px;
+}
+@media(max-width:768px){
+body{
+    /* background-color: red; */
+}
+.container{
+    top: 10vh;
+    left: 1px;
+    height: 50vh;
+    width: 99vw;
+
+}
+#chat{
+    width: 80vw;
+    top: 513px;
+    /* background-color: red; */
+    left: 0px;
+}
+#send{
+    top: 512px;
+    left: 306px;
+}
+nav{
+    position: relative;
+    left: 1vw;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    top: 185vw;
+    height: 7vh;
+}
+}
+@media(max-width:812px){
+body{
+    /* background-color: red; */
+}
+#chat{
+    top: 692px;
+    width: 89vw;
+    left: 70px;
+    height: 32px;
+}
+#send{
+    left: 803px;
+    height: 8vh;
+    top: 692px;
+}
+.container{
+    left: 71px;
+    width: 797px;
+}
+footer{
+    top: 181vh;
+    left: 0vw;
+    width: 117vw;
+    height: 35px;
+}
+.outgoing{
+    position: relative;
+    left: 78vw;
+    top: 4vw;
+    background-color: red;
+    width: 63px;
+    height: 31px;
+    padding: 15px 10px 10px 30px;
+    /* overflow-x: scroll; */
+    border-radius: 14px;
+}
+.user{
+    position: relative;
+    left: 82vw;
+    /* top: -71x; */
+    top: 30px;
+}
+.user2{
+    position: relative;
+    left: 7vw;
+    top: -37px;
+}
+}
+.errorimg{
+    height: 100vh;
+    width: 100%;
+}
+.goback{
+    position: absolute;
+    left: 44vw;
+    top: 76vh;
+    height: 49px;
+    width: 165px;
+    border: 2px dashed rgb(24, 190, 107);
+    color: rgb(24, 190, 107);
+    background-color: white;
+    cursor: pointer;
+    
+}
+.goback:hover{
+    background-color: rgb(24, 190, 107);
+    cursor: pointer;
+    color: white;
+    transition: all linear .3s;
+    border: 2px dashed white;
+}
