@@ -1,4 +1,4 @@
-// const socket =io();
+const socket =io();
 // var a= new Audio("ting.mp3");
 // a.play();
 // let play = true;
