@@ -4,7 +4,7 @@
     padding: 0;
 }
 html{
-    
+    font-size: 11px;
     font-family: 'Quicksand', sans-serif;
 }
 nav{
@@ -122,6 +122,7 @@ body{
 .container{
     top: 10vh;
     left: 1px;
+    
     height: 50vh;
     width: 99vw;
 
@@ -149,36 +150,37 @@ footer{
     height: 7vh;
 }
 }
-@media(max-width:812px){
-body{
+@media (max-width:800px){
+/* body{
     /* background-color: red; */
-}
+/*} */
 #chat{
-    top: 692px;
-    width: 89vw;
-    left: 70px;
+    top: 413px;
+    width: 108vw;
+    left: 3px;
     height: 32px;
 }
 #send{
-    left: 803px;
-    height: 8vh;
-    top: 692px;
+    left: 309px;
+    height: 5vh;
+    top: 412px;
 }
 .container{
-    left: 71px;
-    width: 797px;
+    left: 0px;
+    width: 378px;
+    
 }
 footer{
     top: 181vh;
     left: 0vw;
-    width: 117vw;
+    width: 135vw;
     height: 35px;
 }
 .outgoing{
     position: relative;
-    left: 78vw;
+    left: 94vw;
     top: 4vw;
-    background-color: red;
+    /* background-color: red; */
     width: 63px;
     height: 31px;
     padding: 15px 10px 10px 30px;
@@ -187,14 +189,13 @@ footer{
 }
 .user{
     position: relative;
-    left: 82vw;
-    /* top: -71x; */
-    top: 30px;
+    left: 108vw;
+    top: 12px;
 }
 .user2{
     position: relative;
-    left: 7vw;
-    top: -37px;
+    left: 15vw;
+    top: -11px;
 }
 }
 .errorimg{

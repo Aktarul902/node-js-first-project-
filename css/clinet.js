@@ -1,8 +1,13 @@
-const socket =io();
+// const socket =io();
 // var a= new Audio("ting.mp3");
 // a.play();
 // let play = true;
 let Name;
+// let outgo= document.querySelector(".outgoing");
+// if(outgo.length===6){
+//     outgo.style.fontsize="10px";
+    
+// }
 // let audio = document.createElement("AUDIO");
 // audio.setAttribute("src","ting.mp3")
 let sendbtn=document.querySelector("#send")
