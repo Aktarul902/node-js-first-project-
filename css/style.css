@@ -115,7 +115,7 @@ footer{
     left: -2vw;
     border-radius: 12px;
 }
-@media(max-width:768px){
+@media(max-width:812px){
 body{
     /* background-color: red; */
 }
@@ -150,10 +150,13 @@ footer{
     height: 7vh;
 }
 }
-@media (max-width:800px){
+@media(max-width:768px){
 /* body{
     /* background-color: red; */
 /*} */
+html{
+    font-size: 55%;
+}
 #chat{
     top: 413px;
     width: 108vw;
