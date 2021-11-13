@@ -150,7 +150,7 @@ footer{
     height: 7vh;
 }
 }
-@media(max-width:768px){
+@media(max-width:400px){
 /* body{
     /* background-color: red; */
 /*} */
@@ -159,7 +159,7 @@ html{
 }
 #chat{
     top: 413px;
-    width: 108vw;
+    width: 80vw;
     left: 3px;
     height: 32px;
 }
@@ -181,7 +181,7 @@ footer{
 }
 .outgoing{
     position: relative;
-    left: 94vw;
+    left: 69vw;
     top: 4vw;
     /* background-color: red; */
     width: 63px;
@@ -192,13 +192,16 @@ footer{
 }
 .user{
     position: relative;
-    left: 108vw;
-    top: 12px;
+    left: 77vw;
+    top: 16px;
 }
 .user2{
     position: relative;
     left: 15vw;
     top: -11px;
+}
+.title{
+    bottom: -3vw;
 }
 }
 .errorimg{
