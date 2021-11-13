@@ -1,12 +1,13 @@
 const express= require("express");
 const app=express();
 const path = require("path");
+const port = process.env.PORT|| 8000
 const index_path=path.join(__dirname,'/css')
 // const index_path=path.join(__dirname,'im')
 // console.log(index_path);
 const http = require("http").createServer(app);
 // const server=http.createServer(app);
-http.listen(8000,()=>{
+http.listen(port,()=>{
     console.log("listen from port");
 })
 app.use(express.static(index_path))
