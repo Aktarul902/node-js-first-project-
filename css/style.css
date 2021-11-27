@@ -150,7 +150,7 @@ footer{
     height: 7vh;
 }
 }
-@media(max-width:400px){
+@media screen and (max-width:950px){
 /* body{
     /* background-color: red; */
 /*} */
@@ -158,20 +158,19 @@ html{
     font-size: 55%;
 }
 #chat{
-    top: 413px;
-    width: 80vw;
-    left: 3px;
+    top: 515px;
+    width: 60vw;
+    left: 87px;
     height: 32px;
 }
 #send{
-    left: 309px;
+    left: 383px;
     height: 5vh;
-    top: 412px;
+    top: 507px;
 }
 .container{
-    left: 10px;
+    left: 85px;
     width: 378px;
-    
 }
 footer{
     top: 181vh;
